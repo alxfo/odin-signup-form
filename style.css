@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
