@@ -4,6 +4,10 @@ body {
     height: 100vh;
 }
 
+.image-sidebar {
+    width:  600px;
+}
+
 .page-content {
     display: flex;
     flex-direction: column;
@@ -13,6 +17,7 @@ body {
 
 .form-body {
     background-color: #fff;
+    box-shadow: 5px 5px 10px grey;
 }
 
 .form-inputs {
