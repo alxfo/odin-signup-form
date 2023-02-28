@@ -15,6 +15,12 @@ body {
     justify-content: center;
 }
 
+.header-text {
+    margin: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .form-body {
     background-color: #fff;
     box-shadow: 5px 5px 10px grey;
@@ -23,7 +29,7 @@ body {
 
 .form-body legend {
     padding: 10px;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .form-inputs {
@@ -37,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.8em;
     margin: 10px;
 }
 
@@ -57,4 +63,12 @@ body {
     text-transform: none;
     color: red;
     margin-top: 0px;
+}
+
+.signup-form button {
+    margin: 30px;
+}
+
+.signup-form p {
+    margin-left: 30px;
 }
