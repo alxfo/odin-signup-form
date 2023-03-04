@@ -11,11 +11,35 @@ body {
     background-image: url("./img/mountains.jpg");
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
-.attribution {
-    position: fixed;
-    bottom: 0;
+.image-sidebar div {
+    background-color: rgb(0,0,0,50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.banner {
+    margin-top: 25vh;
+    font-size: 5em;
+    padding: 16px;
+}
+
+.banner img {
+    height: 1.5em;
+}
+
+.img-credit {
+    margin-top: auto;
+    padding: 8px;
+}
+
+.img-credit a {
+    color: #fff;
 }
 
 .page-content {
