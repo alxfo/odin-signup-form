@@ -115,14 +115,6 @@ body {
 }
 
 .signup-form button {
-    margin: 30px;
-}
-
-.signup-form p {
-    margin-left: 30px;
-}
-
-button {
     border: none;
     border-radius: 10px;
     background-color: #94C3DB;
@@ -132,12 +124,18 @@ button {
     font-size: 1em;
     font-weight: bold;
     box-shadow: 3px 3px 5px grey;
+    margin: 30px;
+    margin-bottom: 8px;
 }
 
-button:hover {
+.signup-form button:hover {
     background-color: #75B3D1;
 }
 
-button:active {
+.signup-form button:active {
     background-color: #94C3DB;
+}
+
+.signup-form p {
+    margin-left: 30px;
 }
