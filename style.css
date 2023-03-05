@@ -116,3 +116,15 @@ body {
 .signup-form p {
     margin-left: 30px;
 }
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: #94C3DB;
+    height: 50px;
+    width: 250px;
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px lightgrey;
+}
