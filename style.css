@@ -55,7 +55,7 @@ body {
 .page-content {
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: #FAFBF5;
     justify-content: center;
 }
 
