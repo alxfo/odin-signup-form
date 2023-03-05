@@ -95,7 +95,6 @@ body {
 .form-inputs div input {
     width: 250px;
     height: 1.4em;
-    border: 1px solid lightgrey;
     border-radius: 3px;
     padding: 5px 10px;
 }
@@ -106,6 +105,33 @@ body {
 
 .form-inputs div input:invalid {
     border: 1px solid red;
+}
+
+.form-inputs div input:valid {
+    border: 1px solid #75B3D1;
+}
+
+input + span {
+    position: relative;
+}
+
+input:required + span::after {
+    font-size: 0.8em;
+    position: absolute;
+    content: 'required';
+    color: red;
+    top: -44px;
+    left: 222px;
+}
+
+input:valid + span::after {
+    font-size: 0.8em;
+    position: absolute;
+    content: 'ok!';
+    color: #75B3D1;
+    top: -44px;
+    left: 254px;
+    justify-self: right;
 }
 
 .form-inputs div p {
